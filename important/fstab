@@ -1,0 +1,18 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda4 LABEL=Arch\134x20Linux
+UUID=cefe2d5f-715b-4ed2-aabe-50603e23eac6	/         	ext4      	rw,relatime	0 1
+
+# /dev/sda1 LABEL=EFI
+UUID=67E3-17ED      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda3 LABEL=swap
+UUID=3db69e8b-45f5-415f-9cb9-49f5081d03f5	none      	swap      	defaults  	0 0
+
+# Linux Storage
+UUID=c28d2b08-f54e-4a51-92a9-e29c25702a69	/mnt/LinuxStorage	ext4	defaults,nofail	0 0
+
+# NTFS Storage 160GB
+UUID=324D228E0C65682B	/mnt/NTFS160GB	ntfs-3g					defaults,nofail	0 0
