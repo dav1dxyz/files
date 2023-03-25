@@ -20,7 +20,7 @@ wmname LG3D &
 feh --bg-scale /home/david/walls/jeremy-bishop-uAfZBP-GtiA-unsplash.jpg
 
 # displays
-xrandr --output HDMI-0 --primary --mode 1920x1080 --rotate normal --output DVI-D-0 --mode 1920x1080 --right-of HDMI-0
+xrandr --output HDMI-0 --primary --mode 1920x1080 --rate 74.97 --rotate normal --output DVI-D-0 --mode 1920x1080 --rate 74.97 --right-of HDMI-0
 
 # JetBrains software
 wmname LG3D &

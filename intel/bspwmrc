@@ -20,15 +20,14 @@ wmname LG3D &
 feh --bg-scale /home/david/walls/jeremy-bishop-uAfZBP-GtiA-unsplash.jpg
 
 # displays
-xrandr --output HDMI2 --primary --mode 1920x1080 --rotate normal --output VGA1 --mode 1920x1080 --right-of HDMI2
+xrandr --output VGA1 --primary --mode 1920x1080
 
 # JetBrains software
 wmname LG3D &
 bspc rule -a jetbrains-studio border=off follow=on desktop=^3
 bspc rule -a jetbrains-idea border=off follow=on desktop=^3
 
-bspc monitor HDMI2 -d         
-bspc monitor VGA1 -d    
+bspc monitor VGA1 -d             
 
 bspc config border_width         2
 bspc config window_gap          12
